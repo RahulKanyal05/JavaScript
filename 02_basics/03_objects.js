@@ -39,6 +39,8 @@ const JsUser = {
     lastLoginDays: ["Monday", "Saturday"]
 }
 
+console.log(JsUser)
+
 // console.log(JsUser.email)
 // console.log(JsUser["email"])
 // console.log(JsUser["full name"])
@@ -49,10 +51,10 @@ JsUser.email = "Rahul@chatgpt.com"
 JsUser.email = "Rahul@microsoft.com"
 // console.log(JsUser);
 
-JsUser.greeting = function(){
+JsUser.greeting = function () {
     console.log("Hello JS user");
 }
-JsUser.greetingTwo = function(){
+JsUser.greetingTwo = function () {
     console.log(`Hello JS user, ${this.name}`);
 }
 
