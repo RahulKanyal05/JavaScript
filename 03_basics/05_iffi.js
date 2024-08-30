@@ -10,6 +10,7 @@
 */
 
 //////////////////////////////////////////////////////////////////////////////////////////
+//Global scope se koi dikkat na aye , isliye imidiate invoke function expression ka use kiya jata h
 
 // Immediately Invoked Function Expressions (IIFE)
 
